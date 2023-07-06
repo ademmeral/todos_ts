@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Barlow', sans-serif;
+}
+.container{
+  background: #555;
+  color: #fff;
+  padding-top: 2rem;
+}
+button,
+input{
+  color: inherit;
+}
+button{
+  background: none;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+ul{
+  list-style: none;
+}
+/*-----------------------FORM-------------------*/
+.form{
+  width: max-content;
+  height: 500px;
+  padding: 2rem;
+  background: #555;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+
+  margin: 0 auto;
+}
+.form__header{
+  padding: 0.5rem;
+}
+.form__header input{
+  min-width: 400px;
+  padding: 0.5rem;
+  border: 2px solid #ddd;
+  outline-color: #ddd;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+.form__header button{
+  border: 2px solid #ddd;
+  border-radius: 5px;
+
+  padding: .5rem 1rem;
+
+  height: 100%;
+}
+/*-----------------------FORM SECTION-------------------*/
+
+.form__section header{
+  padding: 0.75rem .5rem;
+  border-bottom: 2px solid #ddd;
+  border-radius: 1px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__section header h2{
+  font-size: 2rem;
+}
+.form__section header button{
+  border: 2px solid #ddd;
+  border-radius: 5px;
+
+  padding: .5rem 1rem;
+
+  height: 100%;
+}
+
+/*-----------------------ITEMS-------------------*/
+.item{
+  padding: 0.75rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item .left{
+  display: flex;
+  align-items: center;
+}
+.item .left input{
+  width: 20px;
+  height: 20px;
+}
+.item .left label{
+  margin-left: 0.5rem;
+  font-size: 1.25rem;
+}
+.item .left .done{
+  text-decoration-line: line-through;
+}
+.item button{
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.5rem 0.75rem;
+  border: 2px solid #000;
+  border-radius: 5px;
+}

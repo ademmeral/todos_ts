@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css" />
+  <script defer src="src/main.ts"></script>
+  <title>Project</title>
+</head>
+
+<body>
+  <div class="container">
+    <form id="form" class="form">
+      <header class="form__header">
+        <input type="search" placeholder="Add Item" id="new-item" />
+        <button type="submit" id="new-item-btn">+</button>
+      </header>
+      <section class="form__section">
+        <header>
+          <h2>List</h2>
+          <button type="button" id="clear-btn">Clear</button>
+        </header>
+        <ul class="items" id="item-list">
+          <!-- <li class="item">
+              <div class="left">
+                <input type="checkbox"/>
+                <label>Make a video</label>
+              </div>
+              <button type="button">X</button>
+            </li> -->
+        </ul>
+      </section>
+    </form>
+  </div>
+</body>
+
+</html>
