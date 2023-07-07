@@ -47,7 +47,7 @@ ul{
   padding: 0.5rem;
 }
 .form__header input{
-  min-width: 400px;
+  min-width: 300px;
   padding: 0.5rem;
   border: 2px solid #ddd;
   outline-color: #ddd;
@@ -105,9 +105,6 @@ ul{
 .item .left label{
   margin-left: 0.5rem;
   font-size: 1.25rem;
-}
-.item .left .done{
-  text-decoration-line: line-through;
 }
 .item button{
   background: rgba(255, 255, 255, 0.2);
