@@ -1,1 +1,0 @@
-const anotherExample = "another example";
